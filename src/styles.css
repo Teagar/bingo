@@ -27,7 +27,8 @@ body {
   border: 2px solid #000;
   background-color: #333333;
   cursor: pointer;
-  transition: background-color 0.3s, transform 0.2s;
+  transition: background-color 0.3s, transform 0.2s, color 0.3s;
+  color: #ffffff;
 }
 
 .square:hover {
@@ -41,6 +42,7 @@ body {
 
 .yellow {
   background-color: #fbc02d !important;
+  color: #000000;
   animation: gradientAnimation 2s ease infinite;
 }
 
