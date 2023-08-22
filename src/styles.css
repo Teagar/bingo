@@ -30,6 +30,7 @@ body {
   transition: background-color 0.3s, transform 0.2s, color 0.3s;
   color: #ffffff;
   text-shadow: 0 0 2px #000000;
+  margin: 0.1rem;
 }
 
 .square:hover {
