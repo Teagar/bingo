@@ -29,6 +29,7 @@ body {
   cursor: pointer;
   transition: background-color 0.3s, transform 0.2s, color 0.3s;
   color: #ffffff;
+  text-shadow: 0 0 1px #000000;
 }
 
 .square:hover {
@@ -41,7 +42,7 @@ body {
 }
 
 .yellow {
-  background-color: #fbc02d !important;
+  background-color: #ffd700 !important;
   color: #000000;
   animation: gradientAnimation 2s ease infinite;
 }
@@ -53,7 +54,7 @@ body {
 
 @keyframes gradientAnimation {
   0% {
-    background-image: linear-gradient(45deg, #00c853, #fbc02d, #e53935);
+    background-image: linear-gradient(45deg, #00c853, #ffd700, #e53935);
     background-size: 300% 300%;
     transform: scale(1);
   }
@@ -62,7 +63,7 @@ body {
     transform: scale(1.05);
   }
   100% {
-    background-image: linear-gradient(45deg, #e53935, #fbc02d, #00c853);
+    background-image: linear-gradient(45deg, #e53935, #ffd700, #00c853);
     background-size: 300% 300%;
     transform: scale(1);
   }
