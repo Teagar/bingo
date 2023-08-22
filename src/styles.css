@@ -12,6 +12,13 @@ body {
   margin: 2rem;
 }
 
+.bingo-title {
+  font-family: sans-serif;
+  font-size: 4rem; 
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
 .bingo {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
