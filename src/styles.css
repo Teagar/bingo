@@ -31,6 +31,7 @@ body {
   color: #ffffff;
   text-shadow: 0 0 2px #000000;
   margin: 0.1rem;
+  user-select: none;
 }
 
 .square:hover {
