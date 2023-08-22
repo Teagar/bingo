@@ -29,7 +29,8 @@ body {
   cursor: pointer;
   transition: background-color 0.3s, transform 0.2s, color 0.3s;
   color: #ffffff;
-  text-shadow: 0 0 1px #000000;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #000; 
 }
 
 .square:hover {
