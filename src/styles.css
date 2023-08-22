@@ -29,7 +29,7 @@ body {
   cursor: pointer;
   transition: background-color 0.3s, transform 0.2s, color 0.3s;
   color: #ffffff;
-  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #000; 
 }
 
