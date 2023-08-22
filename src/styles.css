@@ -3,9 +3,13 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #1a1a1a;
+  background: linear-gradient(to right, #1a1a1a, #2a2a2a);
   color: #ffffff;
   font-family: Arial, sans-serif;
+}
+
+.container {
+  margin: 2rem;
 }
 
 .bingo {
